@@ -2,34 +2,47 @@
     <form onSubmit="formSubmit" onReset="formReset">
       <view class="section__title">行程明细</view>
       <view class="section">
-        <view class="section__title">开始时间</view>
-        <input name="begin_time" value="2018-08-21"/>
-      </view>
-      <view class="section">
-        <view class="section__title">结束时间</view>
-        <input name="finish_time" value="2018-08-25"/>
-      </view>
-      <view class="section">
-        <view class="section__title">出差地点</view>
+        <view class="section__title">出差地点(单行输入框)</view>
         <input name="detail_address" value="北京"/>
       </view>
       <view class="section">
-        <view class="section__title">图片</view>
+        <view class="section__title">图片(图片)</view>
         <input name="detail_picture" value="http://www.9669.com/uploadfile/2016/0422/20160422032911845.jpg"/>
       </view>
 
       <view class="line"></view>
 
       <view class="section">
-        <view class="section__title">交通工具</view>
+        <view class="section__title">开始时间(时间区间)</view>
+        <input name="begin_time" value="2018-08-21"/>
+      </view>
+      <view class="section">
+        <view class="section__title">结束时间(时间区间)</view>
+        <input name="finish_time" value="2018-08-25"/>
+      </view>
+      <view class="section">
+        <view class="section__title">出差人数(数字)</view>
+        <input name="number" value="8"/>
+      </view>
+      <view class="section">
+        <view class="section__title">出差金额(金额)</view>
+        <input name="money" value="100"/>
+      </view>
+      <view class="section">
+        <view class="section__title">出差同伴(单选框)</view>
+        <input name="people" value="A"/>
+      </view>
+      <view class="section">
+        <view class="section__title">交通工具(单行输入框)</view>
         <input name="vehicle" value="飞机"/>
       </view>
       <view class="sectionV2">
-        <view class="section__title">出差事由</view>
+        <view class="section__title">出差事由(多行输入框)</view>
         <textarea name="reason" value="去北京参加E应用交流会"/>
       </view>
+      
       <view class="sectionV2">
-        <view class="section__title">图片</view>
+        <view class="section__title">图片(图片)</view>
         <input name="picture" value="http://www.9669.com/uploadfile/2016/0422/20160422032911845.jpg"/>
       </view>
 

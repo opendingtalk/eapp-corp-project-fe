@@ -70,6 +70,10 @@ Page({
                         originatorUserId: that.data.userId,
                         deptId: that.data.deptId,
                         textForms: [
+                          {name: "[\"开始时间\",\"结束时间\"]",value:"[\"2018-08-21\",\"2018-08-25\"]"},
+                          {name: "出差人数",value:form.number},
+                          {name: "出差金额",value:form.money},
+                          {name: "出差同伴",value:form.people},
                           {name: "交通工具",value:form.vehicle},
                           {name: "出差事由",value:form.reason}
                         ],
@@ -78,8 +82,6 @@ Page({
                           {
                             name:"行程明细",
                             textForms:[
-                              {name:"开始时间",value:form.begin_time},
-                              {name:"结束时间",value:form.finish_time},
                               {name:"出差地点",value:form.detail_address}],
 	                          pictureForms:[
                               {name:"图片",value:[form.detail_picture]}]}]
